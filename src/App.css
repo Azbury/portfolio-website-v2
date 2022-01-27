@@ -9,7 +9,8 @@ body {
 .name {
   font-size: 100px;
   animation: flicker 3.5s linear;
-  font-family: serif;
+  font-family: Courier;
+  font-weight: 100;
 }
 
 .neon-text {
@@ -43,7 +44,7 @@ body {
   0% {
     opacity: 0;
   }
-  30% {
+  40% {
     opacity: 0.1;
   }
   100% {
