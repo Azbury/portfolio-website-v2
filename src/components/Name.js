@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
 class Name extends Component {
-    componentDidMount() {
-        document.getElementById("name").classList.add("neon-text");
-    }
     render() {
         return (
-            <h1 id="name" className={"name"}>Austin Asbury</h1>
+            <div>
+                <h1 className="name neon-text">Austin Asbury</h1>
+                <h2 className="title neon-text">Front End Developer</h2>
+            </div>
         )
     }
 }
