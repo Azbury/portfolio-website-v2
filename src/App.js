@@ -5,8 +5,8 @@ import NavigationMenu from './components/NavigationMenu.js';
 function App() {
   return (
     <div className="App">
-      <Name/>
       <NavigationMenu/>
+      <Name/>
     </div>
   );
 }

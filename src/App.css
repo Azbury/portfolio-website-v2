@@ -12,14 +12,15 @@ a {
 }
 
 .name {
-  font-size: 75px;
+  font-size: 80px;
   animation: flicker 3.5s linear;
   font-family: Courier;
   font-weight: 100;
+  margin-bottom: -20px;
 }
 
 .title {
-  font-size: 50px;
+  font-size: 45px;
   animation: flicker 3.5s linear;
   font-family: Courier;
   font-weight: 100;
@@ -41,40 +42,26 @@ a {
     0 0 200px #DC143C;
 }
 
-.navigation-menu {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 10vw;
-  height: 100%; 
-  background-color: #101010;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.menu-icon-bar {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 8px 0;
 }
 
-.navigation-menu-item {
-  display: block;
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: Courier;
-  font-weight: 100;
-  text-align: center;
-  border-bottom: 1px solid #fff;
+.menu-icon {
+  position: absolute;
+  top: 60px;
+  left: 75px;
+  animation: fadeIn 1s ease-in-out;
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
-.navigation-menu-a {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  top: 0;
-  text-align: center;
-  font-size: 75px;
-  animation: flicker 3.5s linear;
+.menu-icon:hover .menu-icon-bar {
+  box-shadow: 0 0 10px 3px #DC143C;
+  transition: all 0.5s ease;
 }
 
 @keyframes flicker {
@@ -100,6 +87,15 @@ a {
   }
   60%{
     opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
   100% {
     opacity: 1;
