@@ -1,4 +1,5 @@
 body {
+  background-color: #F0FFFF;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.frontend-developer-container {
+  background-color: #7dafb6;
+  height: 280px;
+  width: 1330px;
+}
+.about-me-container {
+  background-color: #98d5dd;
+  height: 270px;
+  width: 1250px;
 }
