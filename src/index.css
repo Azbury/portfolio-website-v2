@@ -22,7 +22,23 @@ code {
 .box-container {
   display: flex;
   flex-direction: column;
-  padding: 5rem 15rem;
+}
+
+@media (min-width: 480px) {
+  .box-container {
+    padding: 5% 10%;
+  }
+  .frontend-developer-container {
+    z-index: 2;
+    border-radius: 2rem;
+  }
+  .about-me-container {
+    margin-left: 2rem;
+    z-index: 1;
+    bottom: 10rem;
+    left: 2rem;
+    border-radius: 2rem;
+  }
 }
 
 .frontend-developer-container {
@@ -30,17 +46,10 @@ code {
   background-color: var(--primary-color);
   height: 17rem;
   width: 100%;
-  z-index: 2;
-  border-radius: 2rem;
 }
 .about-me-container {
   position: relative;
   background-color: var(--secondary-color);
   height: 17rem;
   width: 100%;
-  margin-left: 2rem;
-  z-index: 1;
-  bottom: 10rem;
-  left: 2rem;
-  border-radius: 2rem;
 }
