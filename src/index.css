@@ -33,20 +33,30 @@ code {
     border-radius: 2rem;
   }
   .about-me-container {
-    margin-left: 2rem;
     z-index: 1;
     bottom: 10rem;
-    left: 2rem;
+    left: 4rem;
     border-radius: 2rem;
   }
 }
 
 .frontend-developer-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: var(--primary-color);
   height: 17rem;
   width: 100%;
 }
+
+.frontend-developer-title {
+  font-size: 5rem;
+  margin: 0;
+  padding-left: 4rem;
+  line-height: 5rem;
+}
+
 .about-me-container {
   position: relative;
   background-color: var(--secondary-color);
