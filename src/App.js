@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
-import MenuIcon from '@mui/icons-material/Menu';
+import { Squash as Hamburger } from 'hamburger-react'
 import Introduction from './components/Introduction';
 
 class App extends Component {
   render () {
       return (
         <div className="App">
-          <MenuIcon className="menu-icon" sx={{ fontSize: 50 }}/>
+          <button className='menu-button'>
+            <Hamburger/>
+          </button>
           <Introduction/>
         </div>
       )

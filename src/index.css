@@ -66,6 +66,15 @@ code {
   margin-top: 0;
 }
 
+.menu-button {
+  position: absolute;
+  background-color: transparent;
+}
+
+button {
+  border: none;
+}
+
 .frontend-developer-title {
   font-size: 3rem;
   margin: 0;

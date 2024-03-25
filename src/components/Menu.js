@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
+import { Squash as Hamburger } from 'hamburger-react'
 
 class Menu extends Component {
   render() {
     return (
       <div>
-        <MenuIcon className="menu-icon" sx={{ fontSize: 50 }}/>
         <aside className="menu">
           <div className="sidebar">
             <span>kajhdakjh</span>
