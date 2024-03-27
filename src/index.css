@@ -1,7 +1,9 @@
 :root {
-  --background-color: #a4b9be;
+  --background-color: #4e9599;
   --primary-color: #1cd2df;
-  --secondary-color: #98dbec;
+  --secondary-color: #2e4261;
+  --primary-font-color: #ffffff;
+  --secondary-font-color: #2e4261;
 }
 
 #root {
@@ -20,7 +22,7 @@ header {
 body {
   background-color: var(--background-color);
   margin: 0;
-  font-family: "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
@@ -30,11 +32,6 @@ body {
 .App {
   display: flex;
   width: 100%;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 .box-container {
@@ -58,6 +55,7 @@ code {
   font-size: 2.2rem;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
+  color: var(--primary-font-color);
 }
 
 #header {
@@ -67,16 +65,39 @@ code {
 #job-title {
   font-size: 1.4rem;
   margin-top: 0;
+  color: var(--primary-font-color);
+}
+
+.menu-button {
+  position: absolute;
+  background-color: transparent;
+  color: var(--primary-font-color);
 }
 
 #profile-picture {
   height: 100%;
   width: 12rem;
   border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.menu-button {
-  position: absolute;
-  background-color: transparent;
+
+.social-media-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  background: var(--secondary-color);
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+#social-media-buttons {
+  display: flex;
 }
 
 button {
