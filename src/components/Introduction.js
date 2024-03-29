@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Mountains from '../images/mountains.png';
 import ProfilePicture from "../images/portfolio_profile_picture.png";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -18,6 +19,7 @@ class Introduction extends Component {
           <a href="https://www.youtube.com/channel/UCXQTimEpdLhoYKFTCwnX2DQ" className="social-media-button"><YouTubeIcon/></a>
           <a href="https://www.instagram.com/yuumodrone/" className="social-media-button"><InstagramIcon/></a>
         </div>
+        <img src={Mountains} id="mountains"/>
       </header>
     )
   }
