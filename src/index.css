@@ -142,7 +142,7 @@ button {
   fill: #ffbb3f;
 }
 
-.cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49, .cls-50 {
+.cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48 {
   stroke-width: 0px;
 }
 
@@ -159,10 +159,6 @@ button {
 }
 
 .cls-23 {
-  fill: #c4b0a2;
-}
-
-.cls-24 {
   fill: #c6a08d;
 }
 
@@ -170,129 +166,121 @@ button {
   fill: #e0d2c9;
 }
 
-.cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-8, .cls-10, .cls-11, .cls-12, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18 {
+.cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-9, .cls-11, .cls-12, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18 {
   stroke: #3c3632;
 }
 
-.cls-2, .cls-3, .cls-4, .cls-5, .cls-7, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-17, .cls-18 {
+.cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-8, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-17, .cls-18 {
   stroke-width: 5px;
 }
 
-.cls-25 {
-  fill: #fcc561;
-}
-
-.cls-26 {
-  fill: #efe8e2;
-}
-
-.cls-27 {
-  fill: #487010;
-}
-
-.cls-28 {
-  fill: #f4eeea;
-}
-
-.cls-3 {
-  fill: #75533d;
-}
-
-.cls-29 {
-  fill: #ffeace;
-}
-
-.cls-4, .cls-13, .cls-15 {
-  fill: #e0b9a5;
-}
-
-.cls-30 {
-  fill: #516301;
-}
-
-.cls-5 {
-  fill: #ffe294;
-}
-
-.cls-51, .cls-15 {
-  opacity: .99;
-}
-
-.cls-6, .cls-35 {
+.cls-3, .cls-7, .cls-33 {
   fill: #3c3632;
 }
 
-.cls-31 {
+.cls-24 {
+  fill: #fcc561;
+}
+
+.cls-25 {
+  fill: #efe8e2;
+}
+
+.cls-26 {
+  fill: #487010;
+}
+
+.cls-4 {
+  fill: #75533d;
+}
+
+.cls-27 {
+  fill: #ffeace;
+}
+
+.cls-5, .cls-13, .cls-15 {
+  fill: #e0b9a5;
+}
+
+.cls-28 {
+  fill: #516301;
+}
+
+.cls-6 {
+  fill: #ffe294;
+}
+
+.cls-49, .cls-15 {
+  opacity: .99;
+}
+
+.cls-29 {
   fill: #5f4c3f;
 }
 
-.cls-32 {
+.cls-30 {
   fill: #693a1b;
 }
 
-.cls-33 {
+.cls-31 {
   fill: #35520b;
 }
 
-.cls-34 {
+.cls-32 {
   fill: #385610;
 }
 
-.cls-7, .cls-8 {
+.cls-8, .cls-9 {
   fill: #f7d29e;
 }
 
-.cls-7, .cls-13 {
+.cls-8, .cls-13 {
   stroke: #3c3a36;
 }
 
-.cls-8, .cls-16 {
+.cls-9, .cls-16 {
   stroke-width: 3px;
 }
 
-.cls-9 {
+.cls-10 {
   fill: #5f7400;
   stroke: #3b3531;
   stroke-width: 2px;
 }
 
-.cls-10 {
-  fill: #304b0c;
-}
-
 .cls-11 {
-  fill: #5f3000;
+  fill: #304b0c;
 }
 
 .cls-12 {
   fill: #e1e6f1;
 }
 
-.cls-36 {
+.cls-34 {
   fill: #435b91;
 }
 
-.cls-37 {
+.cls-35 {
   fill: #dcc29d;
 }
 
-.cls-38 {
+.cls-36 {
   fill: #c5cad6;
 }
 
-.cls-39 {
+.cls-37 {
   fill: #3d3733;
 }
 
-.cls-40 {
+.cls-38 {
   fill: #da8c58;
 }
 
-.cls-41 {
+.cls-39 {
   fill: #fff1bf;
 }
 
-.cls-42 {
+.cls-40 {
   fill: #fff;
 }
 
@@ -300,11 +288,11 @@ button {
   fill: #5671ae;
 }
 
-.cls-43 {
+.cls-41 {
   fill: #425a8f;
 }
 
-.cls-44 {
+.cls-42 {
   fill: #7c6251;
 }
 
@@ -312,11 +300,11 @@ button {
   fill: none;
 }
 
-.cls-45 {
+.cls-43 {
   fill: #2a420b;
 }
 
-.cls-46 {
+.cls-44 {
   fill: #3b3531;
 }
 
@@ -324,7 +312,7 @@ button {
   fill: #3c5d0e;
 }
 
-.cls-47 {
+.cls-45 {
   fill: #eeaf3b;
 }
 
@@ -332,15 +320,15 @@ button {
   fill: #b06838;
 }
 
-.cls-48 {
+.cls-46 {
   fill: #793f43;
 }
 
-.cls-49 {
+.cls-47 {
   fill: #6580be;
 }
 
-.cls-50 {
+.cls-48 {
   fill: #7e9902;
 }
 
