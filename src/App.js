@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
-import { Squash as Hamburger } from 'hamburger-react'
-import Introduction from './components/Introduction';
+import React, { Component } from 'react';
+import { Squash as Hamburger } from 'hamburger-react';
+import Introduction from './components/Introduction.js';
+import About from './components/About.js';
 
 class App extends Component {
   render () {
@@ -10,6 +11,7 @@ class App extends Component {
             <Hamburger/>
           </button>
           <Introduction/>
+          <About/>
         </div>
       )
   }
