@@ -4,6 +4,7 @@
   --secondary-color: #2e4261;
   --primary-font-color: #ffffff;
   --secondary-font-color: #2e4261;
+  --beige: #e4d0b5;
 }
 
 #root {
@@ -57,8 +58,32 @@ body {
   flex-direction: column;
 }
 
+#about-description {
+  color: var(--secondary-font-color);
+  margin-top: -0.5rem;
+  margin-left: 2.3rem;
+  margin-right: 2.3rem;
+  margin-bottom: 1.5rem;
+}
+
+#about-header {
+  font-size: 1.8rem;
+  color: var(--secondary-font-color);
+}
+
 #about-inner {
-  background-color: #e4d0b5;
+  background-color: var(--beige);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-picture {
+  height: 100%;
+  width: 12rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 2rem;
 }
 
 #cartoon-austin {
@@ -66,6 +91,20 @@ body {
   margin-bottom: 2rem;
   height: 20rem;
   width: 20rem;
+}
+
+#experience {
+  background-color: var(--beige);
+  display: flex;
+  flex-direction: column;
+}
+
+#experience-inner {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #full-name {
@@ -95,13 +134,6 @@ body {
   margin-bottom: -0.1rem;
 }
 
-#profile-picture {
-  height: 100%;
-  width: 12rem;
-  border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
 .social-media-button {
   display: flex;
   justify-content: center;
@@ -117,14 +149,14 @@ body {
   margin: 0 1.7rem;
 }
 
-#social-media-buttons {
-  margin-top: 1rem;
+.social-media-buttons {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   display: flex;
 }
 
-#social-media-buttons-2 {
-  display: flex;
-  margin-bottom: 0.3rem;
+#trees {
+  margin-bottom: -0.1rem;
 }
 
 button {

@@ -18,12 +18,12 @@ const Introduction = () => {
       <header id="header">
         <h1 id="full-name">AUSTIN ASBURY</h1>
         <h2 id="job-title">Frontend Developer</h2>
-        <div id="social-media-buttons-2">
+        <div className="social-media-buttons">
           <a href="https://github.com/Azbury" className="social-media-button"><GitHubIcon/></a>
           <a href="https://www.youtube.com/channel/UCXQTimEpdLhoYKFTCwnX2DQ" className="social-media-button"><YouTubeIcon/></a>
         </div>
         <CartoonAustinMain/>
-        <div id="social-media-buttons">
+        <div className="social-media-buttons">
           <a href="https://www.linkedin.com/in/austin-asbury/" className="social-media-button"><LinkedInIcon/></a>
           <a href="https://github.com/Azbury" className="social-media-button"><GitHubIcon/></a>
           <a href="https://www.youtube.com/channel/UCXQTimEpdLhoYKFTCwnX2DQ" className="social-media-button"><YouTubeIcon/></a>

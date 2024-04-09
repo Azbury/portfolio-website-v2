@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { ReactComponent as Mountains } from '../images/mountains.svg';
-import PortfolioProfilePicture from '../images/portfolio_profile_picture.png';
+import { ReactComponent as Trees } from '../images/trees.svg';
 
-class About extends Component {
+class Experience extends Component {
   render() {
     return (
-      <div id="about">
-        <Mountains/>
-        <div id="about-inner">
+      <div id="experience">
+        <Trees/>
+        <div id="experience-inner">
           <h3 id="about-header">ABOUT</h3>
           <p id="about-description">
           Hey there! I'm Austin, a web developer who finds joy in crafting elegant code 
@@ -18,11 +17,10 @@ class About extends Component {
           where innovation meets challenge, constantly pushing boundaries and seeking new 
           heights. Let's connect and embark on this exciting journey together!
           </p>
-          <img id="about-picture" src={PortfolioProfilePicture} alt="Austin Asbury Headshot"/>
         </div>
       </div>
     )
   }
 }
 
-export default About
+export default Experience
