@@ -86,13 +86,6 @@ body {
   margin-bottom: 2rem;
 }
 
-#cartoon-austin {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  height: 20rem;
-  width: 20rem;
-}
-
 #experience {
   background-color: var(--beige);
   display: flex;
@@ -168,39 +161,4 @@ button {
   margin: 0;
   padding-left: 6rem;
   line-height: 5rem;
-}
-
-.sidebar {
-  background-color: red;
-  display: flex;
-  flex-direction: column;
-  max-width: 4rem;
-  height: 100%;
-}
-
-.menu-icon {
-  display: none !important;
-}
-
-@media screen and ( max-width: 500px) {
-  body { flex-direction: column; }
-  .sidebar {
-    display: none !important;
-  }
-  .menu-icon {
-    display: inline !important;
-    position: absolute !important;
-    top: 0.5rem;
-    left: 0.5rem;
-  }
-  #inner-flex-container { width: 100%; flex: 1; }
-}
-
-section { 
-  flex: 4; 
-  background: deepskyblue; 
-}
-footer { 
-  flex: 1;
-  background: lightgreen;
 }
