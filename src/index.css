@@ -94,6 +94,19 @@ body {
   flex-direction: column;
 }
 
+#experience-description {
+  color: var(--primary-font-color);
+  margin-top: -0.5rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+#experience-header {
+  font-size: 1.8rem;
+  color: var(--primary-font-color);
+}
+
 #experience-inner {
   background-color: var(--secondary-color);
   display: flex;

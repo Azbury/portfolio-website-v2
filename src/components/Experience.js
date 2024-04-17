@@ -6,6 +6,18 @@ class Experience extends Component {
     return (
       <div id="experience">
         <Trees/>
+        <div id="experience-inner">
+          <h3 id="experience-header">EXPERIENCE</h3>
+          <p id="experience-description">
+          Hey there! I'm Austin, a web developer who finds joy in crafting elegant code 
+          and exploring the great outdoors. I'm as passionate about coding as I am about 
+          embarking on adventures, whether it's hiking through rugged landscapes, camping 
+          under the stars, or hitting the slopes in winter. My love for nature fuels my 
+          creativity, bringing fresh perspectives to my work. I thrive in environments 
+          where innovation meets challenge, constantly pushing boundaries and seeking new 
+          heights. Let's connect and embark on this exciting journey together!
+          </p>
+        </div>
       </div>
     )
   }
