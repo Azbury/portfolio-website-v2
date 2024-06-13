@@ -94,12 +94,13 @@ body {
   flex-direction: column;
 }
 
-#experience-description {
-  color: var(--primary-font-color);
-  margin-top: -0.5rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
-  margin-bottom: 1.5rem;
+.experience-description {
+  font-size: 0.95rem;
+}
+
+.experience-description li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 #experience-header {
@@ -113,6 +114,28 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.experience-title {
+  color: var(--primary-font-color);
+  display: flex;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.experience-section {
+  color: var(--primary-font-color);
+  display: flex;
+  flex-direction: column;
+  margin-top: -0.5rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.experience-years {
+  font-size: .9rem;
+  margin-bottom: .5rem;
 }
 
 #full-name {
