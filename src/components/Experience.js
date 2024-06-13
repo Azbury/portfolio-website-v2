@@ -8,7 +8,7 @@ class Experience extends Component {
       <div id="experience">
         <Trees/>
         <div id="experience-inner">
-          <h3 id="experience-header">EXPERIENCE</h3>
+          <h3 className="section-header">EXPERIENCE</h3>
           <div className="experience-section">
             <span className="experience-years">2020 <code>&#8212;</code> Present</span>
             <a className="experience-title" href="https://ritterim.com/" target="_blank" rel="noreferrer">UX/UI Developer - Ritter Insurance Marketing <ArrowOutwardIcon fontSize="small"/></a>
