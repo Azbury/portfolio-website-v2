@@ -79,6 +79,7 @@ body {
   width: 12rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 #experience {
@@ -151,6 +152,12 @@ body {
   margin-bottom: -0.1rem;
 }
 
+.portfolio-website-image {
+  width: 100%;
+  height: 12rem;
+  margin-bottom: 2rem;
+}
+
 #projects {
   background-color: var(--secondary-color);
   color: var(--primary-font-color);
@@ -162,6 +169,10 @@ body {
   background-color: var(--background-color);
   display: flex;
   flex-direction: column;
+}
+
+.projects-video {
+  margin-bottom: 2rem;
 }
 
 .projects-section {
