@@ -9,6 +9,10 @@ class Contact extends Component {
         <Mountains/>
         <div id="contact-inner">
           <CartoonAustinSecondary/>
+          <div id="contact-card">
+            <a href="mailto:acasbury25@aol.com">acasbury25@aol.com</a>
+            <a href="tel:570-624-1138">570-624-1138</a>
+          </div>
         </div>
       </div>
     )

@@ -87,11 +87,19 @@ body {
   flex-direction: column;
 }
 
+#contact-card {
+  border: medium solid var(--secondary-font-color);
+  height: 100%;
+  width: 12rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
 #contact-inner {
   background-color: var(--beige);
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
 }
 
