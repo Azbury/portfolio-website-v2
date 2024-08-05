@@ -6,7 +6,7 @@ import PortfolioWebsite from '../images/portfolio-website-v1.png';
 class Projects extends Component {
   render() {
     return (
-      <div id="projects">
+      <div ref={this.props.scrollReference} id="projects">
         <Waves/>
         <div id="projects-inner">
           <h3 className="section-header">PROJECTS</h3>

@@ -177,6 +177,8 @@ body {
 
 .menu-button {
   position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
   background-color: transparent;
   color: var(--primary-font-color);
 }

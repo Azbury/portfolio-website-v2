@@ -5,7 +5,7 @@ import PortfolioProfilePicture from '../images/portfolio_profile_picture.png';
 class About extends Component {
   render() {
     return (
-      <div id="about">
+      <div ref={this.props.scrollReference} id="about">
         <Mountains/>
         <div id="about-inner">
           <h3 className="section-header">ABOUT</h3>

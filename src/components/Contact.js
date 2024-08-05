@@ -5,7 +5,7 @@ import { ReactComponent as CartoonAustinSecondary } from '../images/cartoon_aust
 class Contact extends Component {
   render() {
     return (
-      <div id="contact">
+      <div ref={this.props.scrollReference} id="contact">
         <Mountains/>
         <div id="contact-inner">
           <div>

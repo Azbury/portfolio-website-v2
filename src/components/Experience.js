@@ -5,7 +5,7 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 class Experience extends Component {
   render() {
     return (
-      <div id="experience">
+      <div ref={this.props.scrollReference} id="experience">
         <Trees/>
         <div id="experience-inner">
           <h3 className="section-header">EXPERIENCE</h3>
