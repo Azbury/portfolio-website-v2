@@ -11,13 +11,14 @@
   width: 100%;
 }
 
-header {
+#introduction {
   background-color: (var(--background-color));
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-top: 2.5rem;
 }
 
 body {
@@ -59,6 +60,7 @@ body {
   color: var(--secondary-font-color);
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 #about-description {
@@ -158,15 +160,16 @@ body {
   margin-bottom: .5rem;
 }
 
+#experience-outer-wrapper {
+  background-color: var(--beige);
+  margin-top: -0.1rem;
+}
+
 #full-name {
   font-size: 2.5rem;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   color: var(--primary-font-color);
-}
-
-#header {
-  margin-top: 2.5rem;
 }
 
 #job-title {
@@ -183,8 +186,12 @@ body {
   color: var(--primary-font-color);
 }
 
+#mountains {
+  margin-top: -0.2rem;
+}
+
 .page-breaks {
-  margin-bottom: -0.1rem;
+  margin-bottom: -0.5rem;
 }
 
 .portfolio-website-image {
@@ -221,6 +228,11 @@ body {
   color: var(--primary-font-color);
   display: flex;
   text-decoration: none;
+}
+
+#projects-outer-wrapper {
+  background-color: var(--secondary-color);
+  margin-top: -0.1rem;
 }
 
 .section-header {
@@ -270,5 +282,52 @@ button {
   .projects-video {
     height: 20rem;
     width: 100%;
+  }
+}
+
+/*CSS rules for laptop screen sizes and up*/
+@media only screen and (min-width: 1024px) {
+  #about {
+    width: 75%;
+  }
+
+  #about-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--beige);
+  }
+  
+  #introduction {
+    width: 75%;
+  }
+
+  #introduction-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #experience {
+    width: 75%;
+  }
+
+  #experience-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+  }
+
+  #projects {
+    width: 75%;
+  }
+
+  #projects-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
   }
 }

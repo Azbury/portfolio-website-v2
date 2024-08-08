@@ -15,17 +15,19 @@ const Introduction = () => {
     });
 
     return (
-      <header id="header">
-        <h1 id="full-name">AUSTIN ASBURY</h1>
-        <h2 id="job-title">Frontend Developer</h2>
-        <CartoonAustinMain/>
-        <div className="social-media-buttons">
-          <a href="https://www.linkedin.com/in/austin-asbury/" className="social-media-button" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-          <a href="https://github.com/Azbury" className="social-media-button" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-          <a href="https://www.youtube.com/channel/UCXQTimEpdLhoYKFTCwnX2DQ" className="social-media-button" target="_blank" rel="noreferrer"><YouTubeIcon/></a>
-          <a href="https://www.instagram.com/yuumodrone/" className="social-media-button" target="_blank" rel="noreferrer"><InstagramIcon/></a>
+      <div id="introduction-wrapper">
+        <div id="introduction">
+          <h1 id="full-name">AUSTIN ASBURY</h1>
+          <h2 id="job-title">Frontend Developer</h2>
+          <CartoonAustinMain/>
+          <div className="social-media-buttons">
+            <a href="https://www.linkedin.com/in/austin-asbury/" className="social-media-button" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/Azbury" className="social-media-button" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://www.youtube.com/channel/UCXQTimEpdLhoYKFTCwnX2DQ" className="social-media-button" target="_blank" rel="noreferrer"><YouTubeIcon/></a>
+            <a href="https://www.instagram.com/yuumodrone/" className="social-media-button" target="_blank" rel="noreferrer"><InstagramIcon/></a>
+          </div>
         </div>
-      </header>
+      </div>
     )
 }
 
