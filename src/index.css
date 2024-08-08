@@ -259,3 +259,16 @@ button {
   padding-left: 6rem;
   line-height: 5rem;
 }
+
+/*CSS rules for tablet screen sizes and up*/
+@media only screen and (min-width: 768px) {
+  .portfolio-website-image {
+    height: 100%;
+    width: 43.3rem;
+  }
+
+  .projects-video {
+    height: 20rem;
+    width: 100%;
+  }
+}
