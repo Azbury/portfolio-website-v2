@@ -276,7 +276,7 @@ button {
 @media only screen and (min-width: 768px) {
   .portfolio-website-image {
     height: 100%;
-    width: 43.3rem;
+    width: 100%;
   }
 
   .projects-video {
@@ -348,15 +348,5 @@ button {
 
   #projects {
     width: 55%;
-  }
-
-  .portfolio-website-image {
-    height: 100%;
-    width: 44.6rem;
-  }
-
-  .projects-video {
-    height: 20rem;
-    width: 100%;
   }
 }
