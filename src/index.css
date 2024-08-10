@@ -191,7 +191,7 @@ body {
 }
 
 .page-breaks {
-  margin-bottom: -0.5rem;
+  margin-bottom: -0.6rem;
 }
 
 .portfolio-website-image {
@@ -329,5 +329,34 @@ button {
     justify-content: center;
     align-items: center;
     background-color: var(--background-color);
+  }
+}
+
+/*CSS rules for large laptop screen sizes and up*/
+@media only screen and (min-width: 1024px) {
+  #about {
+    width: 55%;
+  }
+
+  #introduction {
+    width: 55%;
+  }
+
+  #experience {
+    width: 55%;
+  }
+
+  #projects {
+    width: 55%;
+  }
+
+  .portfolio-website-image {
+    height: 100%;
+    width: 44.6rem;
+  }
+
+  .projects-video {
+    height: 20rem;
+    width: 100%;
   }
 }
