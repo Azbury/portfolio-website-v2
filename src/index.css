@@ -288,7 +288,7 @@ button {
 /*CSS rules for laptop screen sizes and up*/
 @media only screen and (min-width: 1024px) {
   #about {
-    width: 75%;
+    width: 55%;
   }
 
   #about-wrapper {
@@ -300,7 +300,7 @@ button {
   }
   
   #introduction {
-    width: 75%;
+    width: 55%;
   }
 
   #introduction-wrapper {
@@ -310,7 +310,7 @@ button {
   }
 
   #experience {
-    width: 75%;
+    width: 55%;
   }
 
   #experience-wrapper {
@@ -321,7 +321,7 @@ button {
   }
 
   #projects {
-    width: 75%;
+    width: 55%;
   }
 
   #projects-wrapper {
@@ -333,20 +333,8 @@ button {
 }
 
 /*CSS rules for large laptop screen sizes and up*/
-@media only screen and (min-width: 1024px) {
-  #about {
-    width: 55%;
-  }
-
+@media only screen and (min-width: 1440px) {
   #introduction {
-    width: 55%;
-  }
-
-  #experience {
-    width: 55%;
-  }
-
-  #projects {
-    width: 55%;
+    width: 50%;
   }
 }
