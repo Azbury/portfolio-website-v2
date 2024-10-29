@@ -36,13 +36,7 @@ class Experience extends Component {
                   </li>
                   <li>
                     Maintained and optimized static site generators (SSGs) initially built with Hugo, and later
-                    migrated them to Astro for enhanced performance and flexibility
-                  </li>
-                  <li>
-                    Created and maintained WordPress websites with custom PHP plugins, ensuring tailored functionality and ongoing site optimization.
-                  </li>
-                  <li>
-                    Utilized Figma to design wireframes, prototypes, and high-fidelity UI mockups, enhancing collaboration and streamlining the design-to-development handoff process.
+                    migrated them to Astro for enhanced performance and flexibility.
                   </li>
                 </ul>
               </div>
