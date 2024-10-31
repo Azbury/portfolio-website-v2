@@ -283,6 +283,16 @@ button {
     height: 20rem;
     width: 100%;
   }
+
+  .social-media-button {
+    margin: 0 3rem;
+    transform: scale(1.5);
+  }
+
+  .social-media-buttons {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /*CSS rules for laptop screen sizes and up*/
