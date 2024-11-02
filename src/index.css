@@ -278,6 +278,14 @@ button {
 
 /*CSS rules for tablet screen sizes and up*/
 @media only screen and (min-width: 768px) {
+  #full-name {
+    font-size: 4rem;
+  }
+
+  #job-title {
+    font-size: 2rem;
+  }
+
   .portfolio-website-image {
     height: 100%;
     width: 100%;
