@@ -272,10 +272,6 @@ button {
   line-height: 5rem;
 }
 
-#waves {
-  margin-right: -0.5rem;
-}
-
 /*CSS rules for tablet screen sizes and up*/
 @media only screen and (min-width: 768px) {
   #full-name {
