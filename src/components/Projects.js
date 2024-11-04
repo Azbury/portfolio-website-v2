@@ -60,7 +60,7 @@ class Projects extends Component {
                 <p>
                   The link provided directs to version 1 of my portfolio website, showcasing my initial design and content choices. 
                   The website highlights more about myself, my projects, skills, and contact information. Version 1 represents my early 
-                  efforts in creating a professional online presence, aiming to effectively showcase my skills and achievements to potential clients or employers
+                  efforts in creating a professional online presence, aiming to effectively showcase my skills and achievements to potential clients or employers.
                 </p>
                 <a className="portfolio-website-image" href="https://austinasbury.web.app/" target="_blank" rel="noreferrer"> 
                   <img className="portfolio-website-image" src={PortfolioWebsite} alt="Portfolio Website V1"/>
