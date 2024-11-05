@@ -338,6 +338,10 @@ button {
     background-color: var(--secondary-color);
   }
 
+  .menu-button {
+    position: fixed;
+  }
+
   #projects {
     width: 55%;
   }
