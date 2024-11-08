@@ -27,8 +27,7 @@ class Experience extends Component {
                     capability to record inbound and outbound calls, enhancing compliance and customer service standards.
                   </li>
                   <li>
-                    Created other various Vue.js 2 applications integrated into "The Platform,"the company's
-                    primary website, enriching its functionality and user experience.
+                    Created other various Vue.js 2 applications integrated into the company's CMS "The Platform", enriching its functionality and user experience.
                   </li>
                   <li>
                     Successfully converted the primary company website,"The Platform,"from Vue.js 2 to
