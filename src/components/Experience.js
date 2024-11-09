@@ -20,7 +20,7 @@ class Experience extends Component {
                     Lead front-end developer for a contract system developed with Vue.js 2, enabling insurance
                     agents to select, answer questions, and electronically sign contracts. Managed the
                     integration of these contracts into the company database and developed a user-friendly
-                    interface for internal processing.
+                    interface for internal processing. 
                   </li>
                   <li>
                     Lead front-end developer for a call recording system, equipping insurance agents with the
