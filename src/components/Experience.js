@@ -17,7 +17,7 @@ class Experience extends Component {
                   <div className="experience-title">
                     Insurasales <ArrowOutwardIcon fontSize="small"/>
                   </div>
-                  <span className="experience-subtitle">Frontend Developer - Contract</span>
+                  <span className="experience-subtitle">Frontend Developer</span>
                   <ul>
                     <li className="experience-description">
                         Vue.js Development: Built and maintained core Vue.js + Laravel application with focus on 
