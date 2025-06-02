@@ -1,3 +1,6 @@
+/* Import the font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root {
   --background-color: #4e9599;
   --primary-color: #1cd2df;
@@ -5,6 +8,7 @@
   --primary-font-color: #ffffff;
   --secondary-font-color: #2e4261;
   --beige: #e4d0b5;
+  --primary-font: 'Roboto', sans-serif;
 }
 
 #root {
@@ -21,16 +25,23 @@
   margin-top: 2.5rem;
 }
 
+.introduction-header {
+  text-align: center;
+  width: 100%;
+}
+
 body {
   background-color: var(--background-color);
   margin: 0;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: var(--primary-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-flow: row wrap;
   overflow-x: hidden;
   width: 100%;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
 }
 
 .App {
@@ -76,12 +87,42 @@ body {
   align-items: center;
 }
 
-#about-picture {
-  height: 100%;
-  width: 12rem;
+.about-picture {
+  border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin: 1rem;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+#about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-pictures {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#about-headshot {
+  top: 3rem;
+  left: -4rem;
+}
+
+#about-camp {
+  top: 20.2rem;
+  left: 2.3rem;
+}
+
+#about-ski {
+  top: 6rem;
+  left: 14rem;
 }
 
 #contact {
@@ -95,6 +136,7 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--secondary-font-color);
+  padding: 1rem;
 }
 
 .contact-link {
@@ -108,7 +150,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 2rem;
 }
 
 #contact-svg {
@@ -139,11 +180,12 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .experience-title {
   color: var(--primary-font-color);
-  display: flex;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -167,6 +209,7 @@ body {
 
 #full-name {
   font-size: 2.5rem;
+  text-align: center;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   color: var(--primary-font-color);
@@ -174,6 +217,7 @@ body {
 
 #job-title {
   font-size: 1.5rem;
+  text-align: center;
   margin-top: 0;
   color: var(--primary-font-color);
 }
@@ -194,10 +238,28 @@ body {
   margin-bottom: -0.6rem;
 }
 
+.projects-image-wrapper {
+  width: 100%;
+  height: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #222;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects-image-wrapper {
+    height: 20rem;
+  }
+}
+
 .portfolio-website-image {
   width: 100%;
-  height: 12rem;
-  margin-bottom: 2rem;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 #projects {
@@ -211,23 +273,22 @@ body {
   background-color: var(--background-color);
   display: flex;
   flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .projects-video {
   margin-bottom: 2rem;
-}
-
-.projects-section {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  width: 90%;
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
 }
 
 .projects-title {
   color: var(--primary-font-color);
-  display: flex;
-  text-decoration: none;
+  text-decoration: underline;
+  font-size: 1.2rem; 
+  font-weight: bold;
 }
 
 #projects-outer-wrapper {
@@ -238,6 +299,9 @@ body {
 .section-header {
   font-size: 1.8rem;
   text-align: center;
+  font-family: var(--primary-font);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
 }
 
 .social-media-button {
@@ -272,6 +336,82 @@ button {
   line-height: 5rem;
 }
 
+.project-container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  padding: 1.5rem;
+
+  box-shadow: 0 4px 8px rgba(13, 54, 54, 0.8); 
+  border-radius: 4px; 
+  max-width: 100%; 
+  width: 100%; 
+  box-sizing: border-box;
+  background-color: rgb(43, 113, 119);
+}
+
+.experience-card {
+  background-color: var(--secondary-color);
+  color: var(--primary-font-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.experience-card:hover {
+  box-shadow: 0 0 20px rgba(104, 125, 153, 0.8);
+  background-color: #445979;
+}
+
+.experience-year {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-title {
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: var(--primary-font-color);
+}
+
+.experience-subtitle {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-description {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #526c94;
+  color: var(--primary-font-color);
+  padding: 0.2rem 0.5rem;
+  margin: 0.2rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
 /*CSS rules for small mobile screen sizes*/
 @media only screen and (max-width: 320px) {
   .experience-title {
@@ -293,11 +433,6 @@ button {
     font-size: 2rem;
   }
 
-  .portfolio-website-image {
-    height: 100%;
-    width: 100%;
-  }
-
   .projects-video {
     height: 20rem;
     width: 100%;
@@ -311,6 +446,10 @@ button {
   .social-media-buttons {
     margin-top: 2rem;
     margin-bottom: 2rem;
+  }
+
+  .projects-image-wrapper {
+    height: 20rem;
   }
 }
 
@@ -355,7 +494,7 @@ button {
   }
 
   #projects {
-    width: 55%;
+    width: 75%;
   }
 
   #projects-wrapper {
@@ -367,8 +506,116 @@ button {
 }
 
 /*CSS rules for large laptop screen sizes and up*/
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1200px) {
   #introduction {
-    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+  }
+
+  #introduction-header {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  #full-name {
+    font-size: 4.5rem;
+  }
+
+  #job-title {
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .social-media-buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  #introduction > svg {
+    margin-right: 2rem;
+    transform: scale(1);
+  }
+
+  #about-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+  }
+
+  #about-content {
+    width: 60%;
+    text-align: left;
+    margin-top: 7%;
+    margin-left: -12%;
+    margin-right: 10%;
+  }
+
+  #about-description {
+    width: 90%;
+    margin: 0;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  #about-pictures {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+  }
+
+  .about-picture {
+    margin: 1rem 0;
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+  }
+
+  #about-headshot {
+    top: 3rem;
+    left: -4rem;
+  }
+
+  #about-camp {
+    top: 20.2rem;
+    left: 2.3rem;
+  }
+
+  #about-ski {
+    top: 6rem;
+    left: 14rem;
+  }
+  
+  .section-header {
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    font-family: var(--primary-font);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+  }
+
+  .projects-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  #contact-links {
+    margin-bottom: 2rem;
   }
 }

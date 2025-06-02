@@ -11,6 +11,7 @@ import BuildIcon from '@mui/icons-material/Build';
 import CodeIcon from '@mui/icons-material/Code';
 import PhoneIcon from '@mui/icons-material/Phone';
 import MenuIcon from '@mui/icons-material/Menu';
+import HomeIcon from '@mui/icons-material/Home';
 
 export default function Menu(props) {
   const [open, setOpen] = React.useState(false);
@@ -22,6 +23,23 @@ export default function Menu(props) {
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
+        <ListItem key={'Home'} 
+                  disablePadding 
+                  onClick={(e) => { 
+                            e.preventDefault();
+                            window.scrollTo({
+                              top: 0,
+                              behavior: "smooth"
+                            });
+                          }}
+        >
+          <ListItemButton>
+            <ListItemIcon>
+              <HomeIcon/>
+            </ListItemIcon>
+            <ListItemText primary={'Home'} />
+          </ListItemButton>
+        </ListItem>
         <ListItem key={'About'} 
                   disablePadding 
                   onClick={(e) => { 
